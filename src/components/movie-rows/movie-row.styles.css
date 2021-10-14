@@ -1,0 +1,40 @@
+.movie_row_section{
+  margin-left: 20px;
+}
+.movie-row {
+  display: flex;
+  width: 96%;
+  overflow-x: scroll;
+  padding: 20px;
+  overflow-y: hidden;
+}
+.movie-row::-webkit-scrollbar{
+  display: none;
+}
+.movie_section_title{
+  margin-left: 11px;
+}
+.movies {
+  width: 100%;
+  max-height: 130px;
+  object-fit: contain;
+  margin-right: 20px;
+  transition: all 0.6s ease-in-out;
+}
+.movies:hover{
+  transform: scale(1.08);
+  cursor: pointer;
+}
+.movie_large{
+  max-height: 250px;
+}
+.movie_large:hover{
+  transform: scale(1.09);
+  opacity: 1;
+}
+.movie_section_title{
+  font-size: 20px;
+  margin-bottom: -5px;
+  margin-top: 20px;
+  margin-left: 5px;
+}

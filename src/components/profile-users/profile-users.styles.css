@@ -1,0 +1,40 @@
+.users_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50vw !important;
+}
+.users_container h1{
+    font-size: 3.5vw;
+    font-weight: 400;
+}
+.contain{
+    margin: 20px;
+}
+.user-details{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.user-profile{    
+    height: 10vw;
+    width: 10vw;
+    border-radius: .5em;
+    border: .3em solid transparent;
+    margin-bottom: 8px; 
+    max-height: 200px;
+    max-width: 200px;
+    min-height: 84px;
+    min-width: 84px;
+}
+.user-profile:hover{
+    border: .3em solid rgba(194, 12, 12, 0.548);
+}
+.user-details h5{
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+    color: grey;
+    font-size: 1.35vw;
+}
